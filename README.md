@@ -26,6 +26,8 @@ bash Xray-REALITY+Web.sh
 
 
 #或
+
+
 ##1. 安装wget && ca-certificates
 ##Debian基系统(包括Ubuntu、Debian、deepin)：
 ```bash
