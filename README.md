@@ -22,6 +22,28 @@ curl -Lo Xray-REALITY+Web.sh https://github.com/tamamaforever/Xray-script/raw/ma
 bash Xray-REALITY+Web.sh
 ```
 ### 5. 根据脚本提示完成安装
+#####################################################################################################
+
+
+#或
+##1. 安装wget && ca-certificates
+##Debian基系统(包括Ubuntu、Debian、deepin)：
+```bash
+apt --no-install-recommends -y install wget ca-certificates || (apt update && apt --no-install-recommends -y install wget ca-certificates)
+```
+Red Hat基系统(包括CentOS、fedora)：
+```bash
+dnf -y install wget ca-certificates || yum -y install wget ca-certificates
+```
+##2. 获取/更新脚本
+```bash
+wget -O Xray-TLS+Web-setup.sh https://github.com/Thackerary/Xray-script/raw/main/Xray-TLS+Web-setup-new.sh
+```
+##3. 执行脚本
+```bash
+bash Xray-TLS+Web-setup-new.sh
+```
+
 ## 安装位置
 **Nginx：**`/usr/local/nginx`
 
